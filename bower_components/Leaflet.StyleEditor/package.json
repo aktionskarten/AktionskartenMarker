@@ -1,0 +1,28 @@
+{
+    "name": "Leaflet.StyleEditor",
+    "author": "Dennis Wilhelm",
+    "version": "0.1.6",
+    "description": "Edit the style of features drawn within Leaflet.",
+    "license": "MIT",
+    "main": "dist/javascript/Leaflet.StyleEditor.min.js",
+    "devDependencies": {
+        "grunt": "~1.x",
+        "grunt-contrib-concat": "~1.x",
+        "grunt-contrib-uglify": "git://github.com/gruntjs/grunt-contrib-uglify.git#harmony",
+        "grunt-contrib-cssmin": "~2.x",
+        "grunt-gh-pages": "~2.x"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dwilhelm89/Leaflet.StyleEditor"
+    },
+    "keywords": [
+        "map",
+        "gis",
+        "leaflet",
+        "extension",
+        "style",
+        "editor",
+        "StyleEditor"
+    ]
+}

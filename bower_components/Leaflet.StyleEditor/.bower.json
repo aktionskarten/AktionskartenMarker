@@ -1,0 +1,39 @@
+{
+  "name": "Leaflet.StyleEditor",
+  "version": "0.1.8",
+  "homepage": "https://github.com/dwilhelm89/Leaflet.StyleEditor",
+  "authors": [
+    "Dennis Wilhelm <dwilhelm89@googlemail.com>"
+  ],
+  "description": "Edit the style of features drawn within Leaflet.",
+  "main": [
+    "dist/javascript/Leaflet.StyleEditor.min.js",
+    "dist/css/Leaflet.StyleEditor.min.css"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "leaflet",
+    "style",
+    "editor",
+    "styleeditor"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.1.8",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.1.8",
+    "commit": "37ab7adbc1eca9ebc1f814b957d6e26439a8afff"
+  },
+  "_source": "https://github.com/dwilhelm89/Leaflet.StyleEditor.git",
+  "_target": "~0.1.8",
+  "_originalSource": "Leaflet.StyleEditor"
+}
