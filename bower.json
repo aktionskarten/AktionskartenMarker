@@ -1,0 +1,22 @@
+{
+  "name": "aktionskarten-frontend",
+  "authors": [
+    "Fup Duck <fupduck@sacknagel.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "",
+  "homepage": "https://github.com/KartographischeAktion/aktionskarten-frontend",
+  "private": true,
+  "dependencies": {
+    "Leaflet.StyleEditor": "~0.1.8"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
