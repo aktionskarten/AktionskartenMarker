@@ -13,7 +13,7 @@ L.StyleEditor.marker.AktionskartenMarker = L.StyleEditor.marker.Marker.extend({
     _getMarkerHtml: function(size, color, icon, select) {
         var html = '<div class="leaflet-styleeditor-marker leaflet-styleeditor-marker-' +
             this._size(size) +'" ' +
-            'style="background-image: url(https://kartographischeaktion.github.io/AktionskartenMarker/images/spreadsheet.png); ' +
+            'style="background-image: url(https://kartographischeaktion.github.io/AktionskartenMarker/dist/images/spreadsheet.png); ' +
             'background-size: '+ this._spreadSize(size) + ';' +
             'background-position: ' + this._backgroundPosition(color, icon, size) + ';';
 
