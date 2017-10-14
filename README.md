@@ -17,3 +17,8 @@ var styleEditor = L.control.styleEditor({
 });
 map.addControl(styleEditor);
 ````
+
+Examples
+------
+
+[With](https://kartographischeaktion.github.io/AktionskartenMarker/) or [without](https://kartographischeaktion.github.io/AktionskartenMarker/StyleEditorWithLeafletDraw.html) leaflet.draw.
