@@ -9,8 +9,15 @@ Implements the markers used by https://aktionskarten.noblogs.org for [Leaflet St
 Usage
 -----
 
+Include AktionskartenMarker.js and AktionskartenMarkers.css.
+```html
+<script src="https://kartographischeaktion.github.io/AktionskartenMarker/AktionskartenMarker.js"></script>
+<link rel="stylesheet" href="https://kartographischeaktion.github.io/AktionskartenMarker/AktionskartenMarker.css" />
+```
+
+Initialize the StyleEditor with AktionskartenMarkers.
+
 ```javascript
-//Initialize the StyleEditor
 var styleEditor = L.control.styleEditor({
     position: "topleft",
     markerType: L.StyleEditor.marker.AktionskartenMarker,
