@@ -10,7 +10,7 @@ L.StyleEditor.marker.AktionskartenMarker = L.StyleEditor.marker.Marker.extend({
         var color = iconOptions.iconColor;
 
         return new L.divIcon({
-            className: 'leaflet-styleeditor-aktionsmarker-marker' + "-" + this._size(size),
+            className: 'leaflet-styleeditor-aktionsmarker-marker' + "-" + this.sizeToName(size),
             icon: icon,
             bgPos: this._backgroundPosition(color, icon, size),
             iconColor: color,
@@ -41,24 +41,9 @@ L.StyleEditor.marker.AktionskartenMarker = L.StyleEditor.marker.Marker.extend({
         parentUiElement.innerHTML = this.createMarkerIcon(tmpOptions).createIcon().outerHTML;
     },
 
-	_size: function (size) {
-        var keys = Object.keys(this.options.size);
-        for (i=0; i<keys.length; i++) {
-            if (this.options.size[keys[i]] === size) {
-                return keys[i];
-            }
-        }
-        return keys[0];
-	},
-
-    _sizeInPixel: function(size) {
-        size = this._size(size);
-        return this.options.size[size][0];
-    },
-
     _backgroundPosition: function(color, icon, size) {
         color = this.options.styleEditorOptions.util.rgbToHex(color);
-        size = this._sizeInPixel(size);
+        size = this.sizeToPixel(size);
 
         var row = this.options.colorRamp.indexOf(color);
         var colorIcons = this.options.markers[color];
@@ -66,7 +51,7 @@ L.StyleEditor.marker.AktionskartenMarker = L.StyleEditor.marker.Marker.extend({
             colorIcons = this.options.markers.default;
         }
         var col = colorIcons.indexOf(icon);
-        return L.point(col*size, row*size);
+        return L.point(col*size[0], row*size[1]);
     },
 
     options: {
