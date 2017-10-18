@@ -20,21 +20,9 @@ L.StyleEditor.marker.AktionskartenMarker = L.StyleEditor.marker.Marker.extend({
         });
     },
 
-	setStyle: function(styleOption, value) {
-		if (styleOption !== 'icon') {
-			styleOption = 'icon' + styleOption.charAt(0).toUpperCase() + styleOption.slice(1);
-		}
-
-		var iconOptions = this.options.iconOptions;
-        if(iconOptions[styleOption] !== value) {
-            iconOptions[styleOption] = value;
-            this.setNewMarker();
-        }
-	},
-
     createSelectHTML: function (parentUiElement, iconOptions, icon) {
         var tmpOptions = {};
-        tmpOptions.iconSize = this.options.size.small;
+        tmpOptions.iconSize = this.options.size.medium;
         tmpOptions.icon = icon;
         tmpOptions.iconColor = iconOptions.iconColor;
 
@@ -56,9 +44,9 @@ L.StyleEditor.marker.AktionskartenMarker = L.StyleEditor.marker.Marker.extend({
 
     options: {
         size: {
-            'small': [30, 30],
-            'medium': [40, 40],
-            'large': [50, 50]
+            'small': [20, 20],
+            'medium': [30, 30],
+            'large': [40, 40]
         },
 
         colorRamp: [

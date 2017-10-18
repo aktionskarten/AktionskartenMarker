@@ -46,7 +46,8 @@
     //Initialize the StyleEditor
     var styleEditor = L.control.styleEditor({
         position: "topleft",
-        markerType: L.StyleEditor.marker.AktionskartenMarker
+        markerType: L.StyleEditor.marker.AktionskartenMarker,
+        useGrouping: false
     });
     map.addControl(styleEditor);
 
