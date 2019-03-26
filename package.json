@@ -4,7 +4,7 @@
   "description": "AktionskartenMarker used by aktionskarten.org",
   "main": "AktionskartenMarker.js",
   "scripts": {
-    "test": "./node_modules/.bin/eslint . ./**/*.js"
+    "test": "./node_modules/.bin/eslint . ./AktionskartenMarker.js"
   },
   "repository": {
     "type": "git",
