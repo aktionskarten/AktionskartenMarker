@@ -1,3 +1,4 @@
+/* global L */
 /**
  * Example class showing how to implement new MarkerClasses
  * uses the glyphicons given by bootstrap
@@ -10,7 +11,7 @@ L.StyleEditor.marker.AktionskartenMarker = L.StyleEditor.marker.Marker.extend({
         var color = iconOptions.iconColor;
 
         return new L.divIcon({
-            className: 'leaflet-styleeditor-aktionsmarker-marker' + "-" + this.sizeToName(size),
+            className: 'leaflet-styleeditor-aktionsmarker-marker' + '-' + this.sizeToName(size),
             icon: icon,
             bgPos: this._backgroundPosition(color, icon, size),
             iconColor: color,
@@ -54,8 +55,8 @@ L.StyleEditor.marker.AktionskartenMarker = L.StyleEditor.marker.Marker.extend({
         ],
 
         markers: {
-        	'default': ['train', 'megaphone', 'tent', 'speaker', '?', 'cooking-pot', 'police', 'nuclear', 'empty',
-						'point', 'information', 'exclamation-mark', 'star', 'star-megaphone', 'arrow', 'bang'],
+            'default': ['train', 'megaphone', 'tent', 'speaker', '?', 'cooking-pot', 'police', 'nuclear', 'empty',
+                'point', 'information', 'exclamation-mark', 'star', 'star-megaphone', 'arrow', 'bang'],
             '#7d3411': ['flag', 'megaphone', 'empty', 'point', 'exclamation-mark', 'thor-steinar', 'arrow']
         }
     }
