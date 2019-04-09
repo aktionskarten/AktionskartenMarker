@@ -1,11 +1,10 @@
 {
   "name": "AktionskartenMarker",
   "version": "1.0.0",
-  "description": "AktionskartenMarker ===================",
-  "public": false,
+  "description": "AktionskartenMarker used by aktionskarten.org",
   "main": "AktionskartenMarker.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/eslint . ./AktionskartenMarker.js"
   },
   "repository": {
     "type": "git",
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/KartographischeAktion/AktionskartenMarker/issues"
   },
-  "homepage": "https://github.com/KartographischeAktion/AktionskartenMarker#readme"
+  "homepage": "https://github.com/KartographischeAktion/AktionskartenMarker#readme",
+  "devDependencies": {
+    "eslint": "^5.15.3"
+  }
 }
