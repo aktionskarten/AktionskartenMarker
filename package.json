@@ -1,6 +1,6 @@
 {
   "name": "aktionskarten-marker",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "AktionskartenMarker used by aktionskarten.org",
   "main": "AktionskartenMarker.js",
   "scripts": {
