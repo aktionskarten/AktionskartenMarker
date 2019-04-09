@@ -1,6 +1,6 @@
 {
-  "name": "AktionskartenMarker",
-  "version": "0.0.2",
+  "name": "aktionskarten-marker",
+  "version": "0.0.3",
   "description": "AktionskartenMarker used by aktionskarten.org",
   "main": "AktionskartenMarker.js",
   "scripts": {
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KartographischeAktion/AktionskartenMarker.git"
+    "url": "git+https://github.com/aktionskarten/AktionskartenMarker.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/KartographischeAktion/AktionskartenMarker/issues"
+    "url": "https://github.com/aktionskarten/AktionskartenMarker/issues"
   },
-  "homepage": "https://github.com/KartographischeAktion/AktionskartenMarker#readme",
+  "homepage": "https://github.com/aktionskarten/AktionskartenMarker#readme",
   "devDependencies": {
     "eslint": "^5.15.3"
   }
