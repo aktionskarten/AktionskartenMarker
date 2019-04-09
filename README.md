@@ -28,4 +28,4 @@ map.addControl(styleEditor);
 Examples
 ------
 
-[With](https://kartographischeaktion.github.io/AktionskartenMarker/) or [without](https://aktionskarten.github.io/AktionskartenMarker/StyleEditorWithLeafletDraw.html) leaflet.draw.
+[Without](https://aktionskarten.github.io/AktionskartenMarker/) or [with](https://aktionskarten.github.io/AktionskartenMarker/StyleEditorWithLeafletDraw.html) leaflet.draw.
