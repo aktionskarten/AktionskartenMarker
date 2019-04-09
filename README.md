@@ -1,4 +1,4 @@
-AktionskartenMarker
+AktionskartenMarker [![Build Status](https://travis-ci.org/aktionskarten/AktionskartenMarker.svg?branch=gh-pages)](https://travis-ci.org/aktionskarten/AktionskartenMarker)
 ===================
 
 Implements the markers used by https://aktionskarten.noblogs.org for [Leaflet StyleEditor](https://github.com/dwilhelm89/Leaflet.StyleEditor).
