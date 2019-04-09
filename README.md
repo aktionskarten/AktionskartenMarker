@@ -5,6 +5,9 @@ Implements the markers used by https://aktionskarten.noblogs.org for [Leaflet St
 
 <img width="403" height="250" src="https://aktionskarten.github.io/AktionskartenMarker/AktionskartenMarker.png" alt="markers of aktionskarten.noblogs.org" title="markers with courtesy of https://aktionskarten.noblogs.org" />
 
+Image: [cc-by-nc-nd](https://creativecommons.org/licenses/by-nc-nd/4.0/)  
+by https://aktionskarten.noblogs.org
+
 
 Usage
 -----
