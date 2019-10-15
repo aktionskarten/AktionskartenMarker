@@ -1,8 +1,10 @@
 language: node_js
+install: npm i
 node_js:
-- '11'
+  - '11'
 script:
 - npm run test
+
 deploy:
   provider: npm
   email: kohllisti@riseup.net
