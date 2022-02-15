@@ -17,7 +17,7 @@ jobs:
         run : npm install --only=dev
       - 
         name: Run eslint 
-        run: npx eslint --ext .js .
+        run: npm run lint 
       - 
         name: Publish to npmjs.com
         uses: JS-DevTools/npm-publish@v1

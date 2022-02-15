@@ -17,4 +17,4 @@ jobs:
         run : npm install --only=dev
       - 
         name: Run eslint 
-        run: npx eslint --ext .js .
+        run: npm run lint
