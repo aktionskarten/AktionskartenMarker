@@ -1,0 +1,20 @@
+name: tests and publish
+
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  all:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout repo and subrepos
+        uses: actions/checkout@v2
+      - 
+        name: Install npm packages
+        run : npm install --only=dev
+      - 
+        name: Run eslint 
+        run: npx eslint --ext .js .
